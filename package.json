@@ -1,0 +1,23 @@
+{
+  "name": "bookshelfapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+      "lint": "eslint ./"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "nanoid": "^5.0.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.14.0",
+    "eslint-config-dicodingacademy": "^0.9.4",
+    "globals": "^15.12.0"
+  }
+}
